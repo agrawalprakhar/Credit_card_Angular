@@ -8,11 +8,13 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { NewcomponentgitComponent } from './newcomponentgit/newcomponentgit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NewcomponentgitComponent
   ],
   imports: [
     BrowserModule,
